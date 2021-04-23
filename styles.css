@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/circle-top.svg), url(images/circle-bottom.svg);
+  background-position: -210px -480px, 650px 280px;
+  background-repeat: no-repeat;
+  background-size: 850px, 850px;
+}
+
+.card {
+  background-color: white;
+  width: 330px;
+  height: 360px;
+  position: relative;
+  margin: 125px auto;
+  border-radius: 15px;
+}
+
+.top {
+  background-color: blue;
+  width: 330px;
+  height: 130px;
+  position: absolute;
+  margin: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-img{
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 110px;
+  margin-top: 80px;
+  z-index: 2;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.center-container {
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 158px;
+  position: absolute;
+  top:130px;
+  border-bottom: solid 2px hsl(0, 0%, 59%);
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 75px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: inline;
+
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: inline;
+  position: relative;
+  top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.stats {
+  position: relative;
+  top: 20px;
+  right: 46px;
+  padding-left: 37px;
+}
+
+.photos {
+  position: relative;
+  top: 20px;
+}
+
+.bottom-container {
+  background-color: white;
+  width: 330px;
+  height: 70px;
+  position: absolute;
+  top: 290px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
